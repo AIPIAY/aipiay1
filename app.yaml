@@ -1,20 +1,12 @@
-application: aipiay1-145409
+application: aipiay-145413
 version: 1
-
-runtime: python
-27
+runtime: python27
 api_version: 1
 
-
 handlers:
-
 - url: /images
-  
 static_dir: images
-
-
 - url: .*
-  
 script: main.py
 
 
